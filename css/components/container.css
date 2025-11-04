@@ -1,0 +1,19 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+
+.container .logo {
+  display: block;
+  margin: 0 auto 100px;
+  width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+.container h3 {
+  color: blue;
+  text-align: center;
+
+}

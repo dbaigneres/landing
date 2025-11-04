@@ -1,0 +1,16 @@
+.btn-devis{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 1;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.btn-devis:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #838385;
+}
