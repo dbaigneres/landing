@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <title>My landing page</title>
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
   <!-- We need this line below for responsiveness! -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        background: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #333;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    nav a:hover {
+        background: #575757;
+        border-radius: 5px;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px 0;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    /* Media queries pour mobiles et iPhone */
+    @media (max-width: 768px) {
+        nav {
+            flex-direction: column;
+        }
+    }
+</style>
 </head>
 <body>
   <div class="banner" style="background-image: url(https://www.shutterstock.com/image-photo/paris-france-march-31-2025-260nw-2613486209.jpg) ;">
